@@ -1,5 +1,5 @@
 {
-  "name": "smarthi",
+  "name": "hi",
   "version": "0.0.1",
   "description": "a client proxy tool like fiddler/charles",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "url": "git://github.com/wondger/smarthi.git"
   },
   "keywords": [
-    "smarthi",
+    "hi",
     "fiddler",
     "charles",
     "proxy"
