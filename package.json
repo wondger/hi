@@ -1,0 +1,33 @@
+{
+  "name": "smarthi",
+  "version": "0.0.1",
+  "description": "a client proxy tool like fiddler/charles",
+  "main": "index.js",
+  "bin": {
+    "hi": "bin/hi.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wondger/smarthi.git"
+  },
+  "keywords": [
+    "smarthi",
+    "fiddler",
+    "charles",
+    "proxy"
+  ],
+  "author": "wondger@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wondger/smarthi/issues"
+  },
+  "dependencies": {
+    "connect": "~2.11.0",
+    "moment": "~2.4.0",
+    "cli-color": "~0.2.3",
+    "commander": "~2.0.0"
+  }
+}
