@@ -2,16 +2,16 @@
   "name": "hi",
   "version": "0.0.1",
   "description": "a client proxy tool like fiddler/charles",
-  "main": "index.js",
+  "main": "li/hi.js",
   "bin": {
-    "hi": "bin/hi.js"
+    "hi": "bin/hi"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wondger/smarthi.git"
+    "url": "git://github.com/wondger/hi.git"
   },
   "keywords": [
     "hi",
@@ -29,5 +29,8 @@
     "moment": "~2.4.0",
     "cli-color": "~0.2.3",
     "commander": "~2.0.0"
+  },
+  "devDependencies": {
+    "node-qt": "0.0.2"
   }
 }

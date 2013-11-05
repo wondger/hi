@@ -1,0 +1,27 @@
+#! /usr/bin/env node
+/*
+ * @name: hi.js
+ * @description: 
+ * @author: wondger@gmail.com
+ * @date: 2013-11-01
+ * @param: 
+ * @todo: 
+ * @changelog: 
+ */
+var program = require("commander");
+var pkg = require("../package");
+var hi = require("../lib/hi");
+
+program
+    .version(pkg.version)
+    .usage("[options]")
+    .option("-p, --port", "specify hi run port")
+    .option("-r, --rule", "specify proxy rules file")
+    .option("-o, --out", "specify logs file")
+    .parse(process.argv);
+
+
+hi({
+    port: parseInt(program.port, 10),
+    rule: program.rule
+});
