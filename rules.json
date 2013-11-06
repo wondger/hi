@@ -1,6 +1,10 @@
 {
     "filter": [
-        "^http://omiga\\.org.*"
         ],
-    "map": []
+    "map": [
+            {
+                "pattern": "http://www.taobao.com/",
+                "replacer": "http://www.qq.com"
+            }
+        ]
 }
